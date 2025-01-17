@@ -1,0 +1,108 @@
+.bg-header{
+    background-color:rgb(245, 192, 202);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    color: rgb(124, 38, 38);
+}
+
+
+
+.bg-vertical{
+    background-color: rgb(244, 243, 239);
+    border-radius: 0.2rem;
+    border: 1px solid rgb(124, 38, 38);
+    color: rgb(124, 38, 38);
+    justify-content: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+.clases{
+    font-size: 1.5rem; 
+    font-weight: lighter;
+
+}
+.clases:hover{
+    text-decoration: underline;
+}
+
+.bg-titulo {
+    height:100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(124, 38, 38);
+}
+
+
+.bg-destacado{
+    height: 350px; 
+    overflow: hidden; 
+}
+.bg-destacado img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+.especial {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    background-color: rgb(124, 38, 38); 
+    color: white; 
+    padding: 5px 10px; 
+    font-size: 1rem; 
+    font-weight: lighter;
+    font-style: italic;
+    z-index: 10; 
+}
+
+.descripcion{
+    color: rgb(124, 38, 38) ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 2rem;
+    font-style: italic ;
+}
+
+.carrito{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(124, 38, 38);
+    color:  rgb(124, 38, 38);
+    transition: 1s all;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carrito:hover{
+    background-color: rgb(124, 38, 38);
+    color: rgb(255, 255, 255);
+}
+
+
+.reseñas{
+    color:rgb(124, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.bg-footer{
+    background-color: rgb(245, 192, 202);
+}
+
+.card{
+    height: 100%;
+    object-fit: cover;
+}
+.card-img-top{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-title{
+    color: rgb(124, 38, 38) ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 1.5rem;
+    font-style: italic ;
+}
