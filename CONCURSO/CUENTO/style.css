@@ -1,0 +1,746 @@
+body{
+    background-color: rgb(65, 15, 15);
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-fluid{
+    width: 90%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+
+} 
+.textos{
+    font-family: 'Times New Roman', Times, serif; 
+    color: #000;
+}
+
+.contenedor{
+    font-size: 80px;
+    color: rgb(202, 188, 165);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+
+footer{
+    background-color: rgb(101, 30, 30);
+    height:100px;
+    font-size: 50px;
+    display:flex;
+}
+
+.títulos{
+    background-color: rgb(202, 188, 165);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    color: rgb(101, 30, 30);
+    transition: all 2s;
+    overflow: hidden;
+}
+.títulos:hover{
+    transform: scale(120%)
+}
+
+
+.separación2{
+    background-color: rgb(202, 188, 165);
+    height: 300px;
+}
+
+.historias1 {
+    font-size: 30px; 
+    color: rgb(101, 30, 30);
+    background-color:rgb(202, 188, 165) ;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: font-size 0.3s ease, color 0.3s ease; 
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+
+.historias1:hover {
+    font-size: 40px; 
+    color: rgb(183, 102, 102);
+}
+
+.historias2 {
+    font-size: 40px; 
+    color: rgb(101, 30, 30);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: font-size 0.3s ease, color 0.3s ease; 
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+
+.historias2:hover {
+    font-size: 50px; 
+    color: rgb(172, 86, 86);
+}
+
+
+
+.indice {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.box {
+    background: rgb(202, 188, 165);
+    text-align: center;
+    border: 3px solid rgb(202, 188, 165);
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px; 
+    transition: opacity 0.3s ease, border-color 0.2s ease-in-out;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.box h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(101, 30, 30);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box:hover {
+    opacity: 0.7; 
+    border-color: rgb(172, 86, 86); 
+}
+
+.indicador{
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    transition: all 1s;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.indicador.visible{
+    width:100%;
+}
+
+/*CAJAS*/
+
+.caja1{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-left: 150px;
+    margin-right: 30px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja1.visible{
+    background-color: rgb(101, 30, 30);
+}
+
+.caja2{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja2.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+.caja3{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-left: 150px;
+    margin-right: 30px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja3.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+.caja4{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-right: 150px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja4.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+.caja5{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-left: 150px;
+    margin-right: 30px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja5.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+.caja6{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja6.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+
+/*CAPITULOS*/
+
+.capitulo1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+
+.capitulo1.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+.capitulo2.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+.capitulo3.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+.capitulo4.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+
+.capitulo5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+.capitulo5.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+
+.capitulo6.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.textos{
+    margin: 40px;
+    padding: 10px 30px;
+    text-align: center;
+    color: rgb(205, 187, 187);
+    line-height: 1.5;
+}
+
+
+/*IMAGENES*/
+
+.aparece1 img{
+    transition: all 2s;
+    transform: translate(-1500px, 0);
+    opacity: 0;
+}
+.aparece1.visible img{
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.aparece2 img{
+    transition: all 2s;
+    transform: translate(1500px, 0);
+    opacity: 0;
+
+}
+.aparece2.visible img{
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.aparece3 img{
+    transition: all 2s;
+    transform: translate(-1500px, 0);
+    opacity: 0;
+}
+.aparece3.visible img{
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.aparece4 img{
+    transition: all 2s;
+    transform: translate(1500px, 0);
+    opacity: 0;
+}
+.aparece4.visible img{
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.aparece5 img{
+    transition: all 2s;
+    transform: translate(-1500px, 0);
+    opacity: 0;
+}
+.aparece5.visible img{
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.aparece6 img{
+    transition: all 2s;
+    transform: translate(1500px, 0);
+    opacity: 0;
+}
+.aparece6.visible img{
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.aparecefinal img{
+    opacity: 0;
+    transition: all 0.1s;
+    margin-bottom: 30px;
+}
+.aparecefinal:hover img{
+    opacity: 1; 
+    transform: opacity;
+}
+
+
+
+
+
+/*CUENTO2*/
+
+.cuento2{
+    background-color: rgb(202, 188, 165);
+}
+
+
+/*CAJAS*/
+
+.caja7{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-left: 150px;
+    margin-right: 30px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja7.visible{
+    background-color: rgb(101, 30, 30);
+}
+
+.caja8{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja8.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+.caja9{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-left: 150px;
+    margin-right: 30px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja9.visible{
+    background-color: rgb(101, 30, 30);
+}
+
+.caja10{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja10.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+.caja11{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 90px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    margin-left: 150px;
+    margin-right: 30px;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja11.visible{
+    background-color: rgb(101, 30, 30);
+}
+
+.caja12{
+    background-color: rgb(6, 6, 5);
+    margin-bottom: 120px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 3px;
+    outline: 3px solid rgb(101, 30, 30);
+    outline-offset: 10px;
+    transition: background-color 3s, opacity 2s;
+    box-shadow:  0 0 100px rgba(0, 0, 0, 2);
+}
+.caja12.visible{
+    background-color:rgb(101, 30, 30) ;
+}
+
+
+
+/*CAPITULOS*/
+
+
+.capitulo7{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+.capitulo7.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo8{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+.capitulo8.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo9{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+.capitulo9.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo10{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+.capitulo10.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo11{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+.capitulo11.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+.capitulo12{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 188, 165);
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(202, 188, 165);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    transition: opacity 2s;
+}
+.capitulo12.visible{
+    opacity: 1; 
+    background-color: rgb(65, 15, 15);
+}
+
+
+
+/*IMAGENES*/
+
+.aparece7 {
+    overflow: hidden; 
+}
+
+.aparece7 img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.aparece7 img:hover {
+    transform: scale(1.2); 
+}
+
+
+.aparece8 {
+    overflow: hidden; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.aparece8 img {
+    transition: transform 0.5s ease-in-out; 
+}
+
+.aparece8 img:hover {
+    transform: rotate(360deg); 
+}
+
+
+.aparece9 {
+    overflow: hidden; 
+}
+
+.aparece9 img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.aparece9 img:hover {
+    transform: scale(1.2); 
+}
+
+
+.aparece10 {
+    overflow: hidden; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.aparece10 img {
+    transition: transform 0.5s ease-in-out; 
+}
+
+.aparece10 img:hover {
+    transform: rotate(360deg); 
+}
+
+.aparece11 {
+    overflow: hidden; 
+}
+
+.aparece11 img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.aparece11 img:hover {
+    transform: scale(1.2); 
+}
+
+.aparece12 {
+    overflow: hidden; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.aparece12 img {
+    transition: transform 0.5s ease-in-out; 
+}
+
+.aparece12 img:hover {
+    transform: rotate(360deg); 
+}
